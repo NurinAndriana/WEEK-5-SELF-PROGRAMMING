@@ -1,0 +1,29 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// withdrawal amount of more than RM1000.00 is not allowed
+		
+		Scanner in = new Scanner(System.in);
+	
+		double amount;
+		double balance;
+		 
+		   System.out.print("Please Enter amount: ");
+		   amount = in.nextDouble();
+		   
+		   System.out.print("Please Enter balance: ");
+		   balance = in.nextDouble();
+		   
+		if ((amount<= 1000.00) && (amount <= balance)) {
+			
+			balance = balance - amount;
+			
+			System.out.println("Acct new Balance = " + balance);
+		}
+		}
+	}
+
+
