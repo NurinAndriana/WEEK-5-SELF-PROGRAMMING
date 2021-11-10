@@ -1,0 +1,56 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner in = new Scanner (System.in);
+		
+		int mark;
+		char grade;
+		
+		System.out.print("Please enter your mark: ");
+		mark = in.nextInt();
+		
+		if ((mark>=90) && (mark<=100)) {
+			
+		grade = 'A';
+		System.out.println("The mark is: " + mark);
+		System.out.println("The grade is: " + grade);
+		}
+		
+		else if ((mark>=80) && (mark<=89)) {
+			grade = 'B';
+			System.out.println("The mark is: " + mark);
+			System.out.println("The grade is: " + grade);
+		}
+			
+			else if ((mark>=70) && (mark<=79)) {
+				
+			grade = 'C';
+			System.out.println("The mark is: " + mark);
+			System.out.println("The grade is: " + grade);
+			}
+			
+			else if ((mark>=60) && (mark<=69)) {
+				grade = 'D';
+				System.out.println("The mark is: " + mark);
+				System.out.println("The grade is: " + grade);
+			}
+		
+			else 
+				
+			grade = 'F';
+		   System.out.println("The mark is: " + mark);
+		   System.out.println("The grade is: " + grade);
+		
+		
+				
+				
+				
+	}	
+		
+		
+		
+	}
